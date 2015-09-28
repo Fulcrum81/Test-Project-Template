@@ -42,9 +42,9 @@ mvn archetype:generate -DarchetypeGroupId=com.mycompany.dy \
 ###How to execute tests
 The project contains 2 suites (3 tests) and testng.xml: sampleTests.xml was added to project. So you can execute these 3 tests via the following command:
 ```bash
-mvn clean install -Dtestset=sample.xml
+mvn clean install -Dtestset=sampleTests.xml
 ```
 just make sure that chromeDriver has been added to your Environement Variables (chrome is default browser for the template). Otherwise please start these tests in Firefox:
 ```bash
-mvn clean install -Ddriver.browser.name=firefox -Dtestset=sample.xml
+mvn clean install -Ddriver.browser.name=firefox -Dtestset=sampleTests.xml
 ```
