@@ -14,7 +14,7 @@ Default template (based on maven archetype) for generation an initial structure 
 ###Base moments which have been resolved with the project:
 * Template project can be generated based on maven archetype
 * All variables can be passed to command line (include testng properties such as: threadCount and parallel by options)
-* Multi-threading. Tests can be executed in paralell (by default it uses paralel.by=classes and thread.count=2)
+* Multi-threading. Tests can be executed in parallel (by default it uses paralel.by=classes and thread.count=2)
 * Remote/Local. Tests can be started locally or on Grid.
 * Different applications can be automated from the template (the project contains single 'app' project)
 * Different browsers are supported. (just change variable value in test.properties files or override it via console)
