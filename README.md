@@ -40,7 +40,7 @@ mvn archetype:generate -DarchetypeGroupId=com.mycompany.dy \
 2.Open generated folder in your SDK.
 
 ###How to execute tests
-The project contains 2 suites (3 tests) and testng.xml: sampleTests.xml was added to project. So you can execute these 3 tests via the following command:
+The project contains 2 suites (3 tests) and testng.xml: sampleTests.xml was added to the project. So you can execute these 3 tests via the following command:
 ```bash
 mvn clean install -Dtestset=sampleTests.xml
 ```
