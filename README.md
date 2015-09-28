@@ -22,7 +22,7 @@ Default template (based on maven archetype) for generation an initial structure 
 * Template contains some tests.
 
 ###How to start
-1.execute the following command (just change -DgroupId and -DartifactId):
+1.execute the following command (just change -DgroupId and -DartifactId values):
 
 single row:
 ```bash
